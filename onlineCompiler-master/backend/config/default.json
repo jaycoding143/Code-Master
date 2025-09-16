@@ -1,5 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://jay_123:coco%4012345@cluster0.uwytait.mongodb.net/online-compiler",
-    "jwtSecret": "oc_myJwtSecret"
+  "mongoURI": "",
+  "jwtSecret": ""
 }
-
