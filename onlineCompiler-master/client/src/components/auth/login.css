@@ -1,0 +1,64 @@
+.login.container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    background: linear-gradient(135deg, #4BB6E8, #002f4b);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.8s ease-in-out;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* If you want the slideIn animation, add this keyframe */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Adjust form text and inputs for better contrast */
+.login.container h5 {
+    color: #fff;
+}
+
+.login.container .inp {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.login.container .inp::placeholder {
+    color: #ddd;
+}
+
+.login.container .inp:focus {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: #a9d6ff;
+    box-shadow: 0 0 8px rgba(169, 214, 255, 0.7);
+    color: #fff;
+}
+
+/* Button styling for white text on blue background */
+.login.container button[type="submit"] {
+    margin-top: 20px; /* Add some space above the button */
+    background-color: #1e90ff;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.login.container button[type="submit"]:hover {
+    background-color: #005fcc;
+    transform: scale(1.05);
+}

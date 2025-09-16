@@ -1,0 +1,235 @@
+.left {
+    float: left;
+
+    
+}
+
+.right {
+   float: right;
+ 
+}
+.vh-100 {
+  height: 100vh;
+}
+
+.theme-button{
+    margin-left: 45rem;
+    border-radius: 20px;
+}
+
+h5{
+    
+    font-family: 'B612', sans-serif;
+}
+
+.IO{
+   
+    clear: both;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+/* input or output block */
+table{
+   
+    font-family: 'B612', sans-serif;
+    width: 100%;
+    background-color: #007bff;
+}
+ /* text color or the input or output text */
+
+textarea{
+    width: 100%;
+    height: 300px;
+    color: yellow;
+    background-color: #272822;
+    resize: none;
+     font-family: 'Courier New', Courier, monospace;
+}
+/* register page  */
+/* .register {
+    width: 500px;
+    background-color: lightgray;
+    margin-top: 10%;
+    padding: 70px 70px 90px 70px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+ /* the login page  */
+/*.login {
+    width: 500px;
+    background-color: lightgray;
+    margin-top: 10%;
+    padding: 70px 70px 90px 70px;
+    margin: auto;
+    border-radius: 5px;
+} */
+/* register page  */
+.register {
+    width: 90%;
+    max-width: 500px;
+    background-color: lightgray;
+    margin-top: 5%;
+    padding: 70px 70px 90px 70px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* the login page  */
+.login {
+    width: 90%;
+    max-width: 500px;
+    background-color: lightgray;
+    margin-top: 5%;
+    padding: 70px 70px 90px 70px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.files {
+    width: 500px;
+}
+
+.dark-mode .files{
+    background-color: #272822;
+    color: #999;
+    /* color: #14d403; */
+}
+
+.nav{
+    background-color: lightgray;
+}
+
+/* .light-mode .nav{
+    background-color: #999;
+} */
+
+.dark-mode .register {
+    background-color: #444;
+    color: #bbb;
+}
+
+.dark-mode .login {
+    background-color: #444;
+    color: #bbb;
+}
+.dark-mode .nav {
+    background-color: #272822;
+
+}
+
+ /* Navbar Text Enhancements */
+ .dark-mode .nav-text {
+  color: #f1f1f1;
+}
+
+
+.dark-mode .inp{
+    background-color: #272822;
+    color: #999;
+}
+
+.dark-mode {
+    background-color: #1a1919;
+    color: #999;
+}
+
+.outer{
+    
+    /* padding-left: 10%;
+    /* padding-right: 10%; */    /* this for background position */
+    min-height: 800px;
+    max-height: 2000px;
+}
+
+.dark-mode Button.toggle-btn{
+    color: #bbb;
+}
+
+.dark-mode Button.toggle-btn:hover{
+    color: #272822;
+    background-color: #eee;
+}
+
+.dark-mode Button.down-btn{
+    color: #bbb;
+    background-color: #383838;
+}
+
+.dark-mode Button.down-btn:hover{
+    /* color: #383838; */
+    color: #007bff;
+    background-color: #bbb;
+}
+
+/* 
+ SP design start from here  */
+
+
+/* 
+ login page design */
+ 
+.register, .login {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.register:hover, .login:hover {
+  transform: scale(1.01);
+}
+
+/* Navbar  hover efect*/
+
+.nav-link:hover .nav-text {
+  color: #007bff;
+} 
+
+@media (max-width: 768px) {
+    .left, .right {
+        float: none;
+        width: 100%;
+        display: block;
+        text-align: center; /* optional, to center content */
+        margin: 10px 0;      /* optional spacing */
+    }
+}
+ /* animation on login or sign up page  */
+
+.fade-in {
+  animation: fadeInAnimation 1s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+ /* navbar aditional design */
+.navbar-dark-custom {
+  background-color: #1e1e1e !important; /* dark background */
+  color: white;
+}
+
+.navbar-dark-custom .nav-text {
+  color: white !important;
+}
+
+.navbar-light-custom {
+  background-color: #ffffff !important; /* light background */
+  color: #000;
+}
+
+.navbar-light-custom .nav-text {
+  color: #000 !important;
+}
+
+.navbar-dark-custom .navbar-brand,
+.navbar-light-custom .navbar-brand {
+  font-weight: bold;
+}
+.navbar-dark-custom,
+.navbar-light-custom {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

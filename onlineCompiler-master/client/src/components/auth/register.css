@@ -1,0 +1,82 @@
+
+
+.register {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+  background: linear-gradient(135deg, #4BB6E8, #002f4b);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.8s ease-in-out;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register h5 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.register .form-label {
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+.register .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.register .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-bottom: 2px solid #00ffae;
+    box-shadow: none;
+    color: #fff;
+}
+
+.register .form-text {
+    color: #dcdcdc;
+}
+
+.register .btn {
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+    background: #00ffae;
+    border: none;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.register .btn:hover {
+    background: #00e6a0;
+    transform: scale(1.05);
+}
+
+.register .alert {
+    background: rgba(255, 70, 70, 0.9);
+    color: white;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
